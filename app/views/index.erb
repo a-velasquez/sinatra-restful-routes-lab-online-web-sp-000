@@ -5,7 +5,6 @@
     <% @recipes.each do |recipe| %>
     <% recipe_link = "/recipes/#{recipe.id}" %>
     <h3><a href="<%= recipe_link %>"><%= recipe.name.upcase %></a></h3>
-    <%= recipe.ingredients %> 
     <% end %>
   </body>
 </html>
