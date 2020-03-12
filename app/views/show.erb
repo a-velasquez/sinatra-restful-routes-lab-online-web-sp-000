@@ -2,7 +2,7 @@
 <html>
   <body>
     <h4>Recipe Name: <%= @recipe.name %></h4><br>
-    <h4>Ingredients: <%= @recipe.ingredients %></h4><br>
+    <h4>Ingredients: <%= @recipe.ingredients %></h4><br><br>
     <h4>Cook time: <%= @recipe.cook_time %></h4>
 
     <form action="/recipes/<%= @recipe.id %>" method="post">
